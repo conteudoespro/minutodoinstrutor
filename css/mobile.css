@@ -76,8 +76,12 @@
     padding: 50px 0 !important;
  }
 
- .fullsize {
+ .rounded {
     padding: 25px 30px !important;
+ }
+
+ .fullsize {
+   margin-top: 25px !important;
  }
 
  .foot-content h2 {
