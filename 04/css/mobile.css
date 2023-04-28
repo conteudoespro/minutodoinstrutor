@@ -1,0 +1,94 @@
+@media only screen and (max-width: 1000px) {
+
+    body {
+        font-size: .9em !important;
+    }
+
+    header {
+        display: none !important;
+    }
+
+    .portrait {
+        width: 96% !important;
+    }
+    
+    .leftside, .rightside {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+    
+   .gray .article h1, .darkblue .article h1, .darkblue .article h2 {
+    margin-top: 40px;
+}
+    
+.rounded {
+    padding: 50px 40px !important;
+ }
+
+ .article h1, .article h2 {
+    font-size: 1.2em !important;
+    margin-bottom:  20px !important;
+ }
+
+ .mobile-menu {
+    display: block !important;
+    background: #101010;
+    width: 100%;
+    height: 100px;
+    position: relative;
+ }
+
+ .mobile-menu .logotipo {
+    left: 17px;
+    top: 34px;
+ }
+
+ .mobile-menu .logotipo img {
+    width: 80px;
+ }
+
+ .mobile-menu .subtitle h3 {
+    font-size: 1em;
+    left: 196px;
+    top: 49px;
+ }
+
+ .mobile-menu .subtitle h2 {
+    font-size: 1em;
+    top: 25px;
+    left: 115px;
+ }
+
+ .mobile-menu .subtitle h5 {
+    font-size: 1em;
+    right: 15px;
+    top: 35px;
+ }
+
+ .mobile-menu .subtitle h4 {
+    left: 114px;
+    top: 50px;
+    font-size: 1em;
+ }
+
+ .gray, .lightblue, .darkblue {
+    padding: 50px 0 !important;
+ }
+
+ .rounded {
+    padding: 25px 30px !important;
+ }
+
+ .fullsize {
+   margin-top: 25px !important;
+ }
+
+ .foot-content h2 {
+    font-size: 1.2em !important;
+    margin-bottom: 20px !important;
+}
+
+.foot-button a {
+    font-size: 1em !important;
+}
