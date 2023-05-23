@@ -12,12 +12,6 @@
         width: 96% !important;
     }
     
-    .leftside, .rightside {
-    width: 100% !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-}
-    
    .gray .article h1, .darkblue .article h1, .darkblue .article h2 {
     margin-top: 40px;
 }
@@ -84,6 +78,13 @@
    margin-top: 25px !important;
  }
 
+ .destaque-right, .destaque-left {
+   width: 100% !important;
+   margin-left: 0 !important;
+   margin-right: 0 !important;
+   margin-bottom: 5% !important;
+ }
+
  .foot-content h2 {
     font-size: 1.2em !important;
     margin-bottom: 20px !important;
@@ -91,4 +92,12 @@
 
 .foot-button a {
     font-size: 1em !important;
+}
+
+.formulario input, .formulario textarea {
+   width: 92% !important;
+}
+
+.formulario input.enviar {
+    width: 125px !important;
 }
