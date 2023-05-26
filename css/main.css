@@ -153,6 +153,15 @@ a:hover {
     margin-left: 15px;
 }
 
+.article ul li {
+    margin-bottom: 10px;
+}
+
+.wide {
+    width: 100%;
+    position: relative;
+}
+
 .leftside, .rightside {
     float: left;
     width: 48%;
@@ -180,12 +189,22 @@ a:hover {
 .rounded p {
 }
 
-.destaque {
-    
+.destaque-left {
+    float: left;
+    margin-right: 4%;
+    margin-bottom: 2%;
+    width: 48%;
 }
 
-.destaque img {
-    max-width: 100%;
+.destaque-right {
+    float: right;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    width: 48%;
+}
+
+.destaque-left img, .destaque-right img {
+    width: 100%;
     border-radius: 15px;
 }
 
@@ -210,6 +229,13 @@ a:hover {
 .darkblue {
     background: #1A2B4C;
     color: #ffffff;
+}
+
+.instrutor {
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
 }
 
 .foot-content {
@@ -325,4 +351,3 @@ footer {
     height: 1px;
     margin: 50px auto;
 }
-

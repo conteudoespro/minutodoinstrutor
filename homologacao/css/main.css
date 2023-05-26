@@ -153,6 +153,10 @@ a:hover {
     margin-left: 15px;
 }
 
+.article ul li {
+    margin-bottom: 10px;
+}
+
 .wide {
     width: 100%;
     position: relative;
@@ -339,4 +343,11 @@ footer {
 .formulario input::placeholder, .formulario textarea::placeholder {
     color: #FBBB21;
     font-weight: bold;
+}
+
+.separador {
+    background: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 1px;
+    margin: 50px auto;
 }
