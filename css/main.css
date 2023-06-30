@@ -212,7 +212,7 @@ a:hover {
     border-radius: 15px;
 }
 
-.gray, .lightblue, .darkblue {
+.gray, .lightblue, .darkblue, .yellow {
     width: 100%;
     height: 100%;
     display: block;
@@ -233,6 +233,10 @@ a:hover {
 .darkblue {
     background: #1A2B4C;
     color: #ffffff;
+}
+
+.yellow {
+    background: #FBBB21;
 }
 
 .instrutor {
@@ -354,4 +358,25 @@ footer {
     width: 100%;
     height: 1px;
     margin: 50px auto;
+}
+
+.comentarios {
+
+}
+
+.comentarios h2 {
+    font-size: 1.5em;
+    color: #205D91;
+    margin-bottom: 40px;
+}
+
+.comment {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 35px 50px;
+    border-radius: 15px;
+    min-height: 150px;
+}
+
+.comment p {
+    margin-bottom: 15px;
 }
