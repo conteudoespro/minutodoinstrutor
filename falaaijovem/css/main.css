@@ -239,4 +239,125 @@ h1, h2, h3, h4, h5 {
     right: 0;
 }
 
+.bgfilial-bh {
+    background: url(../img/filial-bh.png) no-repeat;
+    left: 0;
+}
+
+.bgfilial-rj {
+    background: url(../img/filial-rj.png) no-repeat;
+    right: 0;
+}
+
+.bgfilial-recife {
+    background: url(../img/filial-recife.png) no-repeat;
+    left: 0;
+}
+
+.bgfilial-brasilia {
+    background: url(../img/filial-brasilia.png) no-repeat;
+    right: 0;
+}
+
+.bgfilial-poa {
+    background: url(../img/filial-poa.png) no-repeat;
+    left: 0;
+}
+
+.foot-content {
+    padding: 75px 0;
+    background: #1f1f1f;
+    color: #ffffff;
+    position: relative;
+}
+
+.foot-content h2 {
+    font-size: 1.5em;
+    color: #FBBB21;
+    margin-bottom: 40px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+
+.foot-button {
+    margin-top: 75px;
+}
+
+.foot-button a {
+    color: #FBBB21;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    text-decoration: none;
+    padding: 17px 25px;
+    border: 2px solid  #FBBB21;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.foot-button a:hover {
+    color: #1f1f1f;
+    background: #FBBB21;
+    transition: 0.5s;
+}
+
+.foot-text {
+}
+
+footer {
+    background: #101010;
+    width: 100%;
+    height: 90px;
+    position: relative;
+}
+
+.footerlogo .logotipo {
+    left: 50%;
+    margin-left: -62px;
+    top: 25px;
+}
+
+.fomulario form {
+    width: 100%;
+}
+
+.formulario input, .formulario textarea {
+    width: 98%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background: #101010;
+    border: 1px solid #303030;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 1em;
+}
+.formulario input:focus, .formulario textarea:focus {
+    border: 1px solid #FBBB21;
+    outline: none;
+}
+
+.formulario textarea {
+    min-height: 200px;
+    resize: vertical;
+}
+
+.formulario input.enviar {
+    width: 125px;
+    height: 50px;
+    background: #FBBB21;
+    text-transform: uppercase;
+    color: #101010;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.formulario input.enviar:hover {
+    color: #ffffff;
+}
+
+.formulario input::placeholder, .formulario textarea::placeholder {
+    color: #FBBB21;
+    font-weight: bold;
+}
+
 
