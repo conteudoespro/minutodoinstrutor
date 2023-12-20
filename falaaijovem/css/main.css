@@ -220,47 +220,47 @@ h1, h2, h3, h4, h5 {
 }
 
 .bgfilial-sp {
-    background: url(../img/filial-sp.png) no-repeat;
+    background: url(../img/filial-sp.png) no-repeat top left;
     right: 0;
 }
 
 .bgfilial-ead {
-    background: url(../img/filial-ead.png) no-repeat;
+    background: url(../img/filial-ead.png) no-repeat top left;
     right: 0;
 }
 
 .bgfilial-campinas {
-    background: url(../img/filial-campinas.png) no-repeat;
+    background: url(../img/filial-campinas.png) no-repeat top right;
     left: 0;
 }
 
 .bgfilial-curitiba {
-    background: url(../img/filial-curitiba.png) no-repeat;
+    background: url(../img/filial-curitiba.png) no-repeat top left;
     right: 0;
 }
 
 .bgfilial-bh {
-    background: url(../img/filial-bh.png) no-repeat;
+    background: url(../img/filial-bh.png) no-repeat top right;
     left: 0;
 }
 
 .bgfilial-rj {
-    background: url(../img/filial-rj.png) no-repeat;
+    background: url(../img/filial-rj.png) no-repeat top left;
     right: 0;
 }
 
 .bgfilial-recife {
-    background: url(../img/filial-recife.png) no-repeat;
+    background: url(../img/filial-recife.png) no-repeat top right;
     left: 0;
 }
 
 .bgfilial-brasilia {
-    background: url(../img/filial-brasilia.png) no-repeat;
+    background: url(../img/filial-brasilia.png) no-repeat top left;
     right: 0;
 }
 
 .bgfilial-poa {
-    background: url(../img/filial-poa.png) no-repeat;
+    background: url(../img/filial-poa.png) no-repeat top right;
     left: 0;
 }
 
