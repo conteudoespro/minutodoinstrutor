@@ -8,8 +8,8 @@
     }
 
     header .logotipo {
-      top: 50px;
-      left: 50px;
+      top: 50px !important;
+      left: 50px !important;
     }
 
     .introducao {
@@ -53,10 +53,15 @@
 
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1350px) {
 
    .name-filial h1, .name-filial2 h1 {
       font-size: 2em !important;
-    } 
+    }
+
+    header .logotipo {
+      top: 50px !important;
+      left: 50px !important;
+    }
 
 }
