@@ -5,93 +5,42 @@
     }
 
     header {
-        display: none !important;
+    }
+
+    header .logotipo {
+      top: 50px;
+      left: 50px;
+    }
+
+    .introducao {
+          transform: translate(5%, -50%) !important;
+          max-width: 350px !important;
     }
 
     .portrait {
-        width: 96% !important;
+        width: 100%;
     }
-    
-   .gray .article h1, .darkblue .article h1, .darkblue .article h2 {
-    margin-top: 40px;
-}
-    
-.rounded {
-    padding: 50px 40px !important;
- }
 
- .article h1, .article h2 {
-    font-size: 1.2em !important;
-    margin-bottom:  20px !important;
- }
+    .comments {
+      max-width: 100% !important;
+    }
 
- .mobile-menu {
-    display: block !important;
-    background: #101010;
-    width: 100%;
-    height: 100px;
-    position: relative;
- }
+    .name-filial, .name-filial2  {
+      top: 4% !important;
+      left: 0 !important;
+    }
 
- .mobile-menu .logotipo {
-    left: 17px;
-    top: 34px;
- }
-
- .mobile-menu .logotipo img {
-    width: 80px;
- }
-
- .mobile-menu .subtitle h3 {
-    font-size: 1em;
-    left: 196px;
-    top: 49px;
- }
-
- .mobile-menu .subtitle h2 {
-    font-size: 1em;
-    top: 25px;
-    left: 115px;
- }
-
- .mobile-menu .subtitle h5 {
-    font-size: 1em;
-    right: 15px;
-    top: 35px;
- }
-
- .mobile-menu .subtitle h4 {
-    left: 114px;
-    top: 50px;
-    font-size: 1em;
- }
-
- .gray, .lightblue, .darkblue {
-    padding: 50px 0 !important;
- }
-
- .rounded {
-    padding: 25px 30px !important;
- }
-
- .fullsize {
-   margin-top: 25px !important;
- }
-
- .destaque-right, .destaque-left {
-   width: 100% !important;
-   margin-left: 0 !important;
-   margin-right: 0 !important;
-   margin-bottom: 5% !important;
- }
+    .name-filial h1, .name-filial2 h1 {
+      font-size: 2em !important;
+    } 
 
  .foot-content h2 {
-    font-size: 1.2em !important;
-    margin-bottom: 20px !important;
+    font-size: 1.2em;
+    margin-bottom: 20px;
 }
 
 .foot-button a {
-    font-size: 1em !important;
+    font-size: 1em;
 }
 
 .formulario input, .formulario textarea {
@@ -100,4 +49,14 @@
 
 .formulario input.enviar {
     width: 125px !important;
+}
+
+}
+
+@media only screen and (max-width: 1300px) {
+
+   .name-filial h1, .name-filial2 h1 {
+      font-size: 2em !important;
+    } 
+
 }
