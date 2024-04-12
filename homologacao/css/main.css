@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap')
 
 * {
     margin: 0;
@@ -15,10 +14,7 @@ html {
 }
 
 body {
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+    font-family: "Archivo", sans-serif;
     font-size: 1.1em;
     line-height: 1.7em;
     letter-spacing: .01em;
@@ -387,4 +383,16 @@ footer {
 
 .comment p.pessoa-nome {
     text-align: left;
+}
+
+.mini-destaque {
+    float: right;
+    max-width: 500px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.mini-destaque img {
+    max-width: 500px;
+    border-radius: 10px;
 }
