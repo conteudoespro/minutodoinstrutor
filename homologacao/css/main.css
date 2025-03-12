@@ -356,6 +356,7 @@ a.btphotos:hover {
     background: #00A1CB;
     color: #ffffff;
     transition: 0.2s;
+    text-decoration: none;
 }
 
 .box-white .btphotos  {
