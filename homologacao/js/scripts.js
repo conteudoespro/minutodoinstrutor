@@ -7,11 +7,11 @@ $(document).ready(function(){
           0:{
               items:1
           },
-          1100:{
+          600:{
               items:2
           },
-          1600:{
-              items:3
+          1000:{
+              items:2
           }
       }
   })
