@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    
+}
+
+.clearfix {
+    clear : both;
+}
+
+body {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+    line-height: 1.8em;
+    color: #666666;
+    text-align: justify;
+    overflow-x: hidden;
+    background: #f4f4f4;
+
+    @media only screen and (max-width: 1000px) { 
+        font-size: 0.9em;
+    }
+}
+
+p {
+    margin-bottom: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 65%;
+
+    @media only screen and (max-width: 1000px) { 
+        width: 80%;
+    }
+}
+
+.clearfix {
+    clear: both;
+}
+
+header {
+    position: relative;
+    /*margin-bottom: 50px;*/
+}
+
+.topheader {
+    height: 75px;
+    background: #ededed;
+    position: relative;
+}
+
+.logo {
+    background: url(../img/logoazul.png) no-repeat;
+    background-size: 100%;
+    width: 125px;
+    height: 45px;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+
+    @media only screen and (max-width: 1000px) { 
+        width: 75px;
+        height: 28px;
+        top: 25px;
+        left: 40px;
+    }
+}
+
+.infos {
+    font-weight: 700;
+    position: absolute;
+    right: 50px;
+    top: 19px;
+    color: #113F8C;
+
+    @media only screen and (max-width: 1000px) {
+        right: 40px;
+         top: 24px;
+    }
+}
+
+.bgheader {
+    background: url(../img/bgminuto.png) no-repeat bottom left;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+}
+
+.inner-header {
+    position: relative;
+    height: 350px;
+    padding: 0 7%;
+
+    @media only screen and (max-width: 1000px) {
+        height: 225px;
+    }
+}
+
+.header-title {
+    font-family: "Archivo", serif;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    @media only screen and (max-width: 1000px) {
+        transform: translate(-50%, -80%);
+    }
+}
+
+.header-title h1 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    color: #113F8C;
+    font-weight: 900;
+     text-align: center;
+     max-width: 650px;
+     margin:  0 auto;
+     position: relative;
+
+     @media only screen and (max-width: 1000px) {
+        font-size: 1.5em;
+        max-width: 350px;
+     }
+}
+
+.header-title h1:after {
+    display: block;
+    content: '';
+    background: url(../img/assets/baloes.svg) no-repeat;
+    background-size: 100%;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    right: -70px;
+    top: -70px;
+    rotate: 20deg;
+
+    @media only screen and (max-width: 1000px) {
+         width: 50px;
+        height: 50px;
+        right: -15px;
+        top: -35px;
+    }
+}
+
+.header-title h4 {
+    text-align: center;
+    font-size: 1.38em;
+    margin-top: 15px;
+
+    @media only screen and (max-width: 1000px) {
+        font-size: 0.9em;
+        margin-top: 0px;
+    }
+} 
+
+.box {
+    border-radius: 20px;
+    padding: 7%;
+    padding-bottom: 5%;
+    margin-bottom: 150px;
+    position: relative;
+
+    @media only screen and (max-width: 1000px) { 
+        padding: 15% 7%;
+        margin-bottom: 50px;
+    }    
+}
+
+.box-white {
+    background: #ffffff;
+    border: 2px solid #113F8C;
+}
+
+.box-blue {
+    background: #113F8C;
+    color: #ffffff;
+}
+
+.box-lightblue {
+    background: #e7ecf3;
+}
+
+.article a {
+    color: #15AF97;
+}
+
+.article a:hover {
+    text-decoration: underline;
+}
+
+.article  h3 {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.box-white .article h3 {
+    color: #00A1CB;
+}
+
+.box-blue .article h3 {
+    color: #FBBB21;
+}
+
+.box-lightblue .article h3 {
+    color: #113F8C;
+}
+
+.photo img {
+    width: 45%;
+    height: auto;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    margin-top: 8px;
+
+    @media only screen and (max-width: 1000px) { 
+        width: 100%;
+    }
+}
+
+.photo img.rounded {
+    border-radius: 75px !important;
+}
+
+.photo-left img {
+    float: left;
+    margin-right: 5%;
+}
+
+.photo-right img {
+    float: right;
+    margin-left: 5%;
+}
+
+.article {
+    position: relative;
+}
+
+.article p {
+
+}
+
+.article-title {
+    position: absolute;
+    padding: 20px 30px;
+    background: #D70060;
+    color: #ffffff;
+    border-radius: 10px;
+    top: -38px;
+    text-transform: uppercase;
+    font-family: "Orbitron", serif;
+
+    @media only screen and (max-width: 1000px) {
+        padding: 10px 20px;
+        top: -20px;
+        max-width: 290px;
+    }
+}
+
+.article-title h1, .article-title h3, .article-title-icon h3 {
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+
+    @media only screen and (max-width: 1000px) {
+        font-size: 1em;
+        text-align: left;
+    }
+}
+
+.box-white .article-title-icon h3  {
+    margin-bottom: 0 !important;
+    color: #ffffff;
+}
+
+.article-title-icon {
+    text-transform: uppercase;
+    font-family: "Orbitron", serif;
+}
+
+.box-lightblue .article-title-icon {
+    position: relative;
+    background: none;
+    color: #15AF97;
+    top: -25px;
+}
+
+.box-white .article-title-icon {
+    text-align: right;
+    background: #113F8C;
+    color: #ffffff;
+    position: absolute;
+    padding: 30px 50px;
+    border-radius: 20px;
+    top: -185px;
+    left: -150px;
+
+    @media only screen and (max-width: 1000px) {
+        top: -120px;
+        left: -10px;
+        padding: 15px 25px;
+    }
+}
+
+.box-white .article-title-icon:after {
+    display: block;
+    content: '';
+    width: 0;
+    height: 0; 
+    border-top: 0px solid transparent;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 30px solid #113F8C;
+    rotate: 180deg;
+    position: absolute;
+    bottom: -25px;
+    right: 35px;
+}
+
+.botao {
+    position: relative;
+}
+
+.btphotos {
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: "Orbitron", serif;
+    text-decoration: none;
+    font-size: 0.8em;
+    border-radius: 10px;
+    letter-spacing: 2px;
+
+   @media only screen and (max-width: 1000px) { 
+        padding: 12px 15px;
+        text-align: left;
+        display: block;
+   }
+}
+
+a.btphotos:hover {
+    background: #00A1CB;
+    color: #ffffff;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+.box-white .btphotos  {
+    color: #ffffff;
+    background: #113F8C;
+}
+
+.box-blue .btphotos {
+    color: #113F8C;
+    background: #ffffff;
+}
+
+.box-lightblue .btphotos {
+    color: #113F8C;
+    background: #FBBB21;
+}
+
+.box-lightblue .icontitle {
+    padding-left: 50px;
+    margin-bottom: 25px;
+
+    @media only screen and (max-width: 1000px) { 
+        padding-left: 35px;
+        margin-bottom: 10px;
+    }
+}
+
+.box-lightblue .icontitle:before {
+    content: '';
+    display: block;
+    background: url(../img/assets/linhas-de-calendario.svg) no-repeat;
+    background-size: 100%;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: -4px;
+    left: 0;
+
+    @media only screen and (max-width: 1000px) { 
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.box-lightblue h3.icontitle  {
+    color: #FBBB21;
+}
+
+.divisor {
+    width: 100%;
+    margin: 90px 0 75px 0;
+    height: 2px;
+    clear: both;
+
+    @media only screen and (max-width: 1000px) { 
+        margin: 60px 0 45px 0;
+    }
+}
+
+.divisor-blue {
+    background: #113F8C;
+}
+
+.divisor-white {
+    background: #ffffff;
+}
+
+.vejamais {
+    margin-bottom: 100px;
+    position: relative;
+    height: 40px;
+
+    @media only screen and (max-width: 1000px) {
+        margin-bottom: 50px;
+    }
+}
+
+.vejamais a {
+    position: absolute;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FBBB21;
+    padding-left: 50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    @media only screen and (max-width: 1000px) {
+        font-size: 0.7em;
+        padding-left: 35px;
+        text-align: left;
+    }
+}
+
+.vejamais a:hover {
+    text-decoration: underline;
+}
+
+.vejamais a:before {
+    content: '';
+    display: block;
+    background: url(../img/assets/globo.svg) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 36px;
+    width: 36px;
+
+    @media only screen and (max-width: 1000px) { 
+        width: 24px;
+        height: 24px;
+        top: 11px;
+    }
+}
+
+.foot-content {
+    padding: 75px 0;
+    background: #1f1f1f;
+    color: #ffffff;
+    position: relative;
+}
+
+.foot-content h2 {
+    font-size: 1.5em;
+    color: #FBBB21;
+    margin-bottom: 40px;
+}
+
+.foot-button {
+    margin-top: 75px;
+}
+
+.foot-button a {
+    color: #FBBB21;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    text-decoration: none;
+    padding: 17px 25px;
+    border: 2px solid  #FBBB21;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.foot-button a:hover {
+    color: #1f1f1f;
+    background: #FBBB21;
+    transition: 0.5s;
+}
+
+.foot-text {
+}
+
+.foot-bgimage {
+    display: block;
+    position: absolute;
+    background: url('../img/bggray2.png') no-repeat top right;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+footer {
+    background: #101010;
+    width: 100%;
+    height: 90px;
+    position: relative;
+}
+
+.logotipo img {
+    width  : 125px;
+}
+
+.footerlogo .logotipo {
+    height: 45px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fomulario form {
+    width: 100%;
+}
+
+.formulario input, .formulario textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background: #101010;
+    border: 1px solid #303030;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-size: 1em;
+
+    @media only screen and (max-width: 1000px) {
+        width: 90%;
+    }
+}
+.formulario input:focus, .formulario textarea:focus {
+    border: 1px solid #FBBB21;
+    outline: none;
+}
+
+.formulario textarea {
+    height: 200px;
+    resize: vertical;
+}
+
+.formulario input.enviar {
+    width: 125px;
+    height: 56px;
+    background: #FBBB21;
+    text-transform: uppercase;
+    color: #101010;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.formulario input.enviar:hover {
+    color: #ffffff;
+}
+
+.formulario input::placeholder, .formulario textarea::placeholder {
+    color: #FBBB21;
+    font-weight: bold;
+}
