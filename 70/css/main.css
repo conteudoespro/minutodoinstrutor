@@ -609,6 +609,8 @@ footer {
     height: 100%;
 }
 
-.ytp-large-play-button {
+.ytp-large-play-button, .ytp-button {
     display: none !important;
+    color: transparent !important;
+    opacity: 0 !important;
 }
